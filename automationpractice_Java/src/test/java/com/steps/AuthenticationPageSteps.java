@@ -10,12 +10,6 @@ import io.cucumber.java.en.Then;
 import io.qameta.allure.Step;
 import org.testng.Assert;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 public class AuthenticationPageSteps extends TestEnvironment {
 
     private final TestCommons testCommons = new TestCommons();
