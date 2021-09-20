@@ -4,12 +4,6 @@ import com.buildSettings.TestEnvironment;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 public class TestNGRetry extends TestEnvironment implements IRetryAnalyzer {
 
     private int retryStatus = 0;
