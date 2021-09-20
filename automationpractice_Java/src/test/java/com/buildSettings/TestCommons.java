@@ -15,11 +15,6 @@ import java.io.IOException;
 import java.security.SecureRandom;
 import java.util.*;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
 
 public class TestCommons extends TestEnvironment {
 
