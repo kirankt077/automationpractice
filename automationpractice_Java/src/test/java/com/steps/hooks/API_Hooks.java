@@ -10,12 +10,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 public class API_Hooks extends DriverFactory implements ITestListener {
 
     private final ExcelEnvironment excelEnvironment = new ExcelEnvironment();
