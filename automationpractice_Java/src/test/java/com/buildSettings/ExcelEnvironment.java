@@ -10,12 +10,6 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 public class ExcelEnvironment extends TestEnvironment {
 
     private static XSSFRow excelRow;
