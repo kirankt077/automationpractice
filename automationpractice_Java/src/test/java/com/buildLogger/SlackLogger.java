@@ -26,12 +26,6 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 public class SlackLogger extends TestEnvironment implements ITestListener {
 
     private static String color;
