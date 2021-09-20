@@ -6,12 +6,6 @@ import org.testng.annotations.ITestAnnotation;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 public class TestNGAnnotationTransformer implements IAnnotationTransformer {
 
     @Override
