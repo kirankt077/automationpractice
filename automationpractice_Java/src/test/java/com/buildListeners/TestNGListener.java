@@ -15,12 +15,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 public class TestNGListener extends ExcelEnvironment implements ITestListener {
 
     public static List<String> passedTests = new ArrayList<>();
