@@ -32,12 +32,6 @@ import java.util.Properties;
 import java.util.ResourceBundle;
 import java.util.stream.Stream;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 public class TestEnvironment {
 
     protected static Faker faker = new Faker(Locale.US);
@@ -198,9 +192,6 @@ public class TestEnvironment {
     protected void displayWebDriverManagerBrowsersVersions(Boolean showBrowserVersions) {
         if (showBrowserVersions) {
             logger.info(String.format("ChromeDriver available versions: %s", WebDriverManager.chromedriver().getDriverVersions()));
-            logger.info(String.format("GeckoDriver available versions: %s", WebDriverManager.firefoxdriver().getDriverVersions()));
-            logger.info(String.format("OperaDriver available versions: %s ", WebDriverManager.operadriver().getDriverVersions()));
-            logger.info(String.format("EdgeDriver available versions: %s", WebDriverManager.edgedriver().getDriverVersions()));
             logger.info(String.format("IEDriver available versions: %s", WebDriverManager.iedriver().getDriverVersions()));
         }
     }
