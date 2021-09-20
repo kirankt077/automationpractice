@@ -18,12 +18,6 @@ import org.testng.annotations.BeforeTest;
 
 import java.io.IOException;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 public class WEB_Hooks extends DriverFactory implements ITestListener {
 
     private final TestCommons testCommons = new TestCommons();
