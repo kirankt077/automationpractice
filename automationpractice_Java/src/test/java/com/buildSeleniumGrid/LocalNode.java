@@ -4,12 +4,6 @@ import org.openqa.grid.internal.utils.SelfRegisteringRemote;
 import org.openqa.grid.internal.utils.configuration.GridNodeConfiguration;
 import org.openqa.selenium.remote.server.SeleniumServer;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 public class LocalNode {
 
     private final SelfRegisteringRemote selfRegisteringRemoteNode;
