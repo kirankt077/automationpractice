@@ -23,7 +23,7 @@ public class API_Tests extends API_Hooks {
     @Issue("TAP/API-0001")
     @TmsLink("JIRA-000")
     @Story("HTTP STATUSES")
-    @Owner("Kamil Nowocin")
+    @Owner("Kiran Thakur")
     @Severity(SeverityLevel.BLOCKER)
     @Description("[API]/[1] As a user I would like to check availability of automationpractice.com")
     @Test(description = "[API]/[1] I would like to check availability of automationpractice.com",
