@@ -1,7 +1,7 @@
 #/**
 #* Test_Automation-automationpractice
 #*
-#* @author kamil.nowocin
+#* @author kiran.thakur
 #**/
 
 @authentication
