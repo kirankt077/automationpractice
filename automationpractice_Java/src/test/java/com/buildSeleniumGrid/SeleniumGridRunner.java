@@ -5,12 +5,6 @@ import org.openqa.grid.internal.utils.configuration.GridNodeConfiguration;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 public class SeleniumGridRunner {
 
     public static void main(String[] args) throws InterruptedException {
