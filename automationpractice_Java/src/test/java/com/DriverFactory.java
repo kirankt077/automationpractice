@@ -26,12 +26,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 public class DriverFactory extends TestEnvironment {
 
     protected WebDriver driver;
