@@ -51,7 +51,7 @@ After each LOCAL cycle run two types of log information are saved inside reposit
 
 In terminal type `allure generate build/allure-results --clean` to generate Allure tests results   
 <sub><sup>*Allure tests results available for running tests via: CucumberRunner, `./gradlew test` or TestMethod with annotation @Test (src/test/java/tests)*</sup></sub>
-![Imgur](https://raw.githubusercontent.com/kamil-nowocin/Test_Automation-automationpractice/master/src/test/resources/files/images/allure_gif.gif)
+
 ## LOGGER (Slack Bot)
 ### CI/CD
 You are able to see real time summary of TestNG suite execution on [Slack workspace](https://testautomation-travis.slack.com)
