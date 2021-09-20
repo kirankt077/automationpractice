@@ -9,12 +9,6 @@ import io.qameta.allure.*;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 @Epic("Web App Tests")
 @Feature("SOCIAL MEDIA TESTS")
 @Listeners({TestNGListener.class})
