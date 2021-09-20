@@ -20,11 +20,6 @@ import org.testng.Assert;
 import java.util.List;
 import java.util.Locale;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
 
 public class RegistrationPageSteps extends TestEnvironment {
 
