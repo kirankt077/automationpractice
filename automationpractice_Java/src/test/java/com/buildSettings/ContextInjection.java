@@ -2,12 +2,6 @@ package com.buildSettings;
 
 import io.cucumber.guice.ScenarioScoped;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 @ScenarioScoped
 public class ContextInjection {
 
@@ -21,18 +15,6 @@ public class ContextInjection {
     //GENERAL DATA//
     public String paymentType;
     public String generatedEmail;
-
-    //PRODUCT DATA//
-    public String productSize;
-    public String productColor;
-    public double productQuantity;
-    public double productUnitPrice;
-
-    //PRODUCT POPUP DATA//
-    public String cartProductName;
-    public double cartProductPrice;
-    public double cartTotalProductsPrice;
-    public double cartTotalPrice;
 
     //ORDER DATA//
     public double totalOrderPriceWithoutTax;
