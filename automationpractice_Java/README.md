@@ -52,10 +52,6 @@ After each LOCAL cycle run two types of log information are saved inside reposit
 In terminal type `allure generate build/allure-results --clean` to generate Allure tests results   
 <sub><sup>*Allure tests results available for running tests via: CucumberRunner, `./gradlew test` or TestMethod with annotation @Test (src/test/java/tests)*</sup></sub>
 
-## LOGGER (Slack Bot)
-### CI/CD
-You are able to see real time summary of TestNG suite execution on [Slack workspace](https://testautomation-travis.slack.com)
-
 ### HOW TO RUN TESTS
 1. Run SeleniumGridRunner
 2. Make sure that SeleniumGrid is running properly, check http://localhost:4444/grid/console
