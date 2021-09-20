@@ -10,12 +10,6 @@ import io.cucumber.java.en.When;
 import io.qameta.allure.Step;
 import org.testng.Assert;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 public class MainPageSteps extends TestEnvironment {
 
     private final MainPage mainPage = new MainPage().get();
