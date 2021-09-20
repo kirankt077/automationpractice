@@ -68,17 +68,7 @@ Feature: As a user I would like to register into automationpractice.com
     And I write my address alias
     And I click on Register button
     Then I can see welcome message
-
 #--------------------------------------------------------------------------------#
-  @non-smoke @normal @regression
-  Scenario:[US-333]/[4] As a user I can't create an account without filling up fields
-    Given I can see registration page form
-    When I write an email address
-    And I click on Create An Account button
-    And I click on Register button
-    Then I can see registration error
-#--------------------------------------------------------------------------------#
-# [ZEPHYR] https://tracker.FAKE.com/jira/browse/AUTOMATION_PRACTICE-0018
   @smoke @critical @regression
   Scenario:[US-333]/[6] As a user I can't create an account, when email is already in database
     Given I can see registration page form
