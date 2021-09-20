@@ -10,11 +10,6 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
 
 @Epic("API Tests")
 @Feature("HTTP Statuses")
