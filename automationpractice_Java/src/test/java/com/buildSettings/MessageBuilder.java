@@ -6,12 +6,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 public class MessageBuilder extends TestEnvironment {
 
     public static String getXmlSuiteName(ITestContext iTestContext) {
