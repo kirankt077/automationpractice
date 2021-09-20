@@ -6,12 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 public class MainPage extends BasePage<MainPage> {
 
     //VIEW//
@@ -30,16 +24,6 @@ public class MainPage extends BasePage<MainPage> {
 
     @FindBy(how = How.XPATH, using = "//form[@id='searchbox']//button[@type='submit']")
     public WebElement searchBoxSubmit;
-
-    //SUB-MENU//
-    @FindBy(how = How.XPATH, using = "//li//a[@title='Women' and not(img)]")
-    public WebElement subMenuWomen;
-
-    @FindBy(how = How.XPATH, using = "(//li//a[@title='Dresses' and not(img)])[2]")
-    public WebElement subMenuDresses;
-
-    @FindBy(how = How.XPATH, using = "(//li//a[@title='T-shirts' and not(img)])[2]")
-    public WebElement subMenuTshirts;
 
     @FindBy(how = How.XPATH, using = "//span[@class='cat-name']")
     public WebElement subMenuChosenCategory;
