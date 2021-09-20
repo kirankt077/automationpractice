@@ -10,12 +10,6 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 @Epic("POC Tests")
 @Feature("POC Tests")
 @Listeners({TestNGListener.class})
@@ -30,7 +24,7 @@ public class POC_Tests extends API_Hooks {
     @Issue("TAP-POC")
     @TmsLink("POC-LINK")
     @Story("POC Tests")
-    @Owner("Kamil Nowocin")
+    @Owner("Kiran Thakur")
     @Severity(SeverityLevel.MINOR)
     @Description("[POC]/[1]As a developer I'd like to see working POC with .xlsx file")
     @Test(description = "[POC]/[1]As a developer I'd like to see working POC with .xlsx file",
