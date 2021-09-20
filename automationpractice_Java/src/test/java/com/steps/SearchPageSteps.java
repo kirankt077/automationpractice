@@ -16,12 +16,6 @@ import org.testng.Assert;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
-
 public class SearchPageSteps extends TestEnvironment {
 
     private final MainPage mainPage = new MainPage().get();
