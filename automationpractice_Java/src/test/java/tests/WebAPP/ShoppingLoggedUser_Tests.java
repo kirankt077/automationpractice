@@ -16,11 +16,6 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Test_Automation-automationpractice
- *
- * @author kamil.nowocin
- **/
 
 @Epic("Web App Tests")
 @Feature("SHOPPING TESTS")
